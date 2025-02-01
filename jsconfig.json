@@ -1,0 +1,15 @@
+
+
+{
+  "compilerOptions": {
+    "paths": {
+        "@/*":["./src/*"],
+        "@images/*":["./src/assets/images/*"],
+        "@icons/*":["/src/assets/icons/*"],
+        "@layouts":["./src/components/layouts/*"],
+        "@ui":["./src/components/ui/*"],
+        "@sections":["./src/components/layouts/sections/*"],
+        "@form":["./src/components/form/*"]
+    }
+  }
+}
