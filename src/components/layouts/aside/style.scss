@@ -1,0 +1,31 @@
+aside {
+  nav {
+    padding: 2px;
+
+    .list{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+
+        &-item{
+            padding: 8px 16px;
+            background: rgb(99, 102, 241);
+            border-radius: 6px;
+            cursor: pointer;
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            &:hover{
+                background-color:rgba(54, 56, 181, 0.925);
+            }
+        }
+    }
+  }
+}
+
+
+.active{
+  background-color:rgba(41, 43, 184, 0.947) !important;
+}

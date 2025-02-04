@@ -2,9 +2,9 @@ import "./style.scss"
 
 const index = ({ children, className }) => {
     return (
-        <div className={className && className }>
+        <section className={className && className}>
             {children && children}
-        </div>
+        </section>
     )
 }
 

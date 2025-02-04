@@ -14,7 +14,11 @@ export default defineConfig({
       "@layouts":path.resolve(__dirname, "./src/components/layouts"),
       "@ui":path.resolve(__dirname, "./src/components/ui"),
       "@sections":path.resolve(__dirname, "./src/components/layouts/sections"),
-      "@form":path.resolve(__dirname, "./src/components/form")
+      "@form":path.resolve(__dirname, "./src/components/form"),
+      "@mainLayout":path.resolve(__dirname, "./src/main-lyouts"),
+      "@components":path.resolve(__dirname, "./src/components"),
+      "@mocks":path.resolve(__dirname, "./src/mocks"),
+      "@pages": path.resolve(__dirname, "./src/pages"),
     }
   }
 })
