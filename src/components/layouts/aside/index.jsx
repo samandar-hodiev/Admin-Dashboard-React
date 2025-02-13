@@ -5,7 +5,7 @@ import { navigation } from "@mocks/navigation";
 
 const index = () => {
     return (
-        <aside className="bg-indigo-600 w-[16%] min-h-screen">
+        <aside className="bg-indigo-600 w-[270px] min-h-screen">
             <nav>
                 <ul className="list px-[2px]">
                     {navigation?.length && navigation?.map((item) => {
